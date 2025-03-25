@@ -1,0 +1,55 @@
+.first-page {
+    height: 100vh;
+    width: 100vw;
+    background: url("/assets/background.png") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px #000;
+    animation: fadeIn 2s;
+}
+
+.narrator-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 70%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.options {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    background: #1e90ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #4169e1;
+    transform: scale(1.1);
+}
+
+/* Subtle animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

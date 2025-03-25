@@ -1,0 +1,24 @@
+{
+    "name": "birthday-game",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "phaser": "^3.88.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.20.1"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.13",
+        "@types/react": "^19.0.12",
+        "@types/react-dom": "^19.0.4",
+        "@vitejs/plugin-react": "^4.0.4",
+        "typescript": "^5.4.5",
+        "vite": "^6.2.2"
+    }
+}
